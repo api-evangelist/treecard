@@ -1,0 +1,22 @@
+generated: '2026-07-21'
+method: searched
+host: http://treecard.org
+note: HTTPS on treecard.org serves a self-signed default hosting certificate (iomart
+  group plc, CN=localhost), so the well-known surface was probed over HTTP. No
+  well-known discovery documents are published; the site is a static closing
+  notice.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /robots.txt
+  status: 200

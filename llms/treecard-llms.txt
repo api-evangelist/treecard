@@ -1,0 +1,13 @@
+# Treecard
+
+> Treecard was a Seedcamp-backed "walk to plant" climate consumer company — a step-tracking app (and originally a wooden debit card) that funded reforestation from everyday activity. The company has shut down: treecard.org now serves a closing notice reporting 10,037,912 trees funded and 2,931,070 lifetime tons of carbon, and points former members to Ecosia and Treekly. Treecard published no public API, developer program, or machine-readable API artifacts.
+
+## Company
+
+- [Closing notice (treecard.org)](http://treecard.org/): farewell page with lifetime impact stats (note: HTTPS is misconfigured with a self-signed hosting certificate; the site serves over HTTP)
+- [Tree-planting impact archive (veritree)](https://impact.veritree.com/treecard): Treecard's reforestation projects, which continue under veritree
+- [GitHub organization](https://github.com/TreeCard): mostly forks; no published API artifacts
+
+## APIs
+
+- None. Treecard exposed no public API surface; no OpenAPI, AsyncAPI, SDKs, or developer documentation were found.

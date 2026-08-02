@@ -1,19 +1,44 @@
 aid: treecard
 name: Treecard
-description: Treecard is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Treecard was a Seedcamp-backed "walk to plant" climate consumer company
+  that funded reforestation from everyday activity, originally through a wooden
+  debit card and later a step-tracking mobile app. The company has shut down, and
+  treecard.org now serves a closing notice thanking members and reporting
+  10,037,912 trees funded and 2,931,070 lifetime tons of carbon, pointing former
+  users to Ecosia and Treekly while its planting projects live on at
+  impact.veritree.com/treecard. Treecard published no public API, developer
+  program, or machine-readable API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/treecard/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: http://treecard.org/assets/Treecard-Logo-White_1778497826599-D9UJ5pk6.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Climate
+- Sustainability
+- Reforestation
+- Fitness
+- Consumer
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/treecard-domain-security.yml
+- type: LLMsTxt
+  url: llms/treecard-llms.txt
+- type: GitHubOrganization
+  url: https://github.com/TreeCard
 - type: Website
   url: http://treecard.org
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
